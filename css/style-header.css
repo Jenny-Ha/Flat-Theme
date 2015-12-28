@@ -1,0 +1,65 @@
+body {
+  padding-top: 50px; /*Corrige el roblema del menu fixed*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+/*Header*/
+header .navbar {
+  background-color: #34495E;
+}
+header .navbar-brand {
+  color: #fff !important;
+  font-size: 30px;
+  font-weight: 400;
+}
+  .navbar-brand i {
+    color: #1BBC9B;
+    margin-right: 7px;
+  }
+.navbar-toggle {
+  background-color: transparent;
+}
+  .navbar-toggle:hover, .navbar-toggle:focus {
+      background-color: transparent !important;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: #FFF;
+  }
+header .navbar-nav a {
+  color:#E7EAED;
+}
+
+.titulo {
+  background-color: #2ECC71;
+  color: #FEFEFE;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.titulo h1 {
+  margin-bottom: 0;
+}
+.titulo p, .titulo a {
+  color: #DFF7E9;
+  margin-bottom: 25px;
+}
+/*Footer*/
+footer  p {
+  color: #9FA8B0;/*919BA3*/
+}
+footer h4 {
+  color: #DEE1E5;
+}
+/*Copyright*/
+.copyright {
+  background-color: #2C3E50;
+  padding-top: 25px;
+  padding-bottom: 25px;;
+}
+.copyright p:last-child {
+  margin-bottom: 0;
+}
+.copyright a {
+  color: inherit;
+  margin: 0 5px;
+  line-height: 0;
+}
