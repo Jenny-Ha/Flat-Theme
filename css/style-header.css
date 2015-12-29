@@ -1,16 +1,18 @@
 body {
-  padding-top: 50px; /*Corrige el roblema del menu fixed*/
+  padding-top: 61px; /*Corrige el roblema del menu fixed*/
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 /*Header*/
 header .navbar {
   background-color: #34495E;
+  border: none;
 }
 header .navbar-brand {
   color: #fff !important;
   font-size: 30px;
   font-weight: 400;
+  margin: px  0;
 }
   .navbar-brand i {
     color: #1BBC9B;
@@ -25,15 +27,34 @@ header .navbar-brand {
   .navbar-toggle .icon-bar {
     background-color: #FFF;
   }
-header .navbar-nav a {
-  color:#E7EAED;
+
+/*Navbar-Nav*/
+.navbar-nav {
+  margin-top: 12px;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #EAECEE !important;
+  background-color: #2C3E50;
+  border-radius: 5px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #9FA8B0 !important;
+  padding: 7px 13px;
+  -webkit-transition: all .35s;
+          transition: all .35s;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #EAECEE !important;
 }
 
+/*TITULO*/
 .titulo {
   background-color: #2ECC71;
   color: #FEFEFE;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 35px;
 }
 .titulo h1 {
   margin-bottom: 0;
@@ -57,9 +78,10 @@ footer h4 {
 }
 .copyright p:last-child {
   margin-bottom: 0;
+  text-align: right;
 }
 .copyright a {
   color: inherit;
-  margin: 0 5px;
+  margin-left: 10px;
   line-height: 0;
 }
