@@ -17,6 +17,7 @@ body {
   padding-top: 50px; /*Corrige el roblema del menu fixed*/
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  font-size: 16px;
 }
 
 /****************Header****************/
@@ -51,12 +52,33 @@ header .navbar-nav a {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.titulo h1 {
-  margin-bottom: 0;
+  .titulo h1 {
+    margin-bottom: 0;
+  }
+  .titulo p, .titulo a {
+    color: #DFF7E9;
+    margin-bottom: 25px;
+  }
+/*********slider*******/
+#my Carousel item {
+  min-height: 750px;
 }
-.titulo p, .titulo a {
-  color: #DFF7E9;
-  margin-bottom: 25px;
+#myCarousel ol.carousel-indicators,
+#myCarousel a.carousel-control {
+  display: none;
+}
+#myCarousel .carousel-mycaption {
+  position: absolute;
+  color: #fff;
+  text-align: left;
+  text-shadow: 1px 1px 1px #333;
+  top: 50%;
+  left:50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+ 
 }
 /***************Footer****************/
 footer  p {
