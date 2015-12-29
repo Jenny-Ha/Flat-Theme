@@ -1,0 +1,25 @@
+section.gallery {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+section.gallery .row {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+section.gallery .thumbnail {
+  padding: 8px;
+}
+section.gallery .col-xs-4 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+section.gallery .col-xs-4:first-child {
+  padding-left: 15px;
+  padding-right: 9px;
+}
+section.gallery .col-xs-4:last-child {
+  padding-left: 9px;
+  padding-right: 15px;
+}
