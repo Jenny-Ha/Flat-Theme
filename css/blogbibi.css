@@ -1,0 +1,24 @@
+*{
+	outline: 1px solid red;
+}
+.float-right{
+	float: right;
+}
+.br2{
+	border-radius: 10%;
+	margin: 20px 0 10px 0;
+}
+.color-gray{
+	color: gray;
+	padding: 0;
+}
+.color-gray li{
+	display: inline;
+	padding: 10px;
+}
+.pagination a{
+	color: #33485c;
+}
+.pagination .active a{
+	background: #33485c;
+}
