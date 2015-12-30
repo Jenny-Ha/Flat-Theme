@@ -10,6 +10,7 @@ section.gallery .row {
 
 section.gallery .thumbnail {
   padding: 8px;
+  cursor: pointer;
 }
 section.gallery .col-xs-4 {
   padding-left: 12px;
