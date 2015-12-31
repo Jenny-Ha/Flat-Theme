@@ -35,6 +35,16 @@ a:hover, a:focus {
   .clearfix:after {
     clear: both;
   }
+.float-left  {
+  float: left;
+}
+.abcsmall{
+  font-size: 10px;
+}
+.inline{
+  display: inline;
+}
+
 
 /*Header*/
 header .navbar {
@@ -149,30 +159,23 @@ footer  p {
 footer h4 {
   color: #ffffff;
 }
-.footer{
+.footer-links{
 	background: #33485c;
 	color: #adb5ba;
   padding-top: 40px;
   padding-bottom: 25px;
 }
-.footer .col-md-3{
+.footer-links .col-md-3{
 	margin-bottom: 25px;
 }
-.footer .img-responsiv {
-	min-width: 65px !important;
-}
-footer .abcsmall{
-	font-size: 10px;
-}
-footer .inline{
-	display: inline;
-}
-.angle i{
-	font-size: 50px;
-	color: red;
-}
-footer .bg-red{
+.footer-links .bg-red{
 	background: #d95250;
+}
+.footer-links .pdbottom{
+  padding-bottom: 20px;
+}
+.footer-links .pdspecial{
+  padding:5px 20px 0 15px;
 }
 /*Copyright*/
 .copyright {
