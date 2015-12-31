@@ -6,6 +6,10 @@ body {
   font-weight: 300;
   color: #34495e; /*rgb(52,73,94)*/
 }
+
+* {
+  outline: 2px solid rgba();
+}
 /**********Estilos y clases generales **********/
 ul {
   list-style: none;
@@ -13,6 +17,8 @@ ul {
 }
 a {
   text-decoration: none;
+  -webkit-transition: all linear .15s;
+          transition: all linear .15s;
 }
 a:hover, a:focus {
   text-decoration: none;
@@ -64,8 +70,8 @@ header .navbar-brand {
 .navbar-inverse .navbar-nav > li > a {
   color: #bdc3c7 !important;
   padding: 7px 13px;
-  -webkit-transition: all .35s;
-          transition: all .35s;
+  /*-webkit-transition: all .25s;
+          transition: all .25s;*/
 }
 .navbar-inverse .navbar-nav > li > a:hover {
   color: #EAECEE !important;
@@ -82,8 +88,8 @@ header .navbar-brand {
 .titulo {
   background-color: #2ECC71;
   color: #fff;
-  padding-top: 25px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .titulo h1 {
   margin-bottom: 0;
@@ -91,15 +97,20 @@ header .navbar-brand {
 .titulo p {
   margin-bottom: 25px;
 }
-.titulo p.text-right a {
-  color: rgba(255,255,255,.7);
+.titulo .breadcrumb {
+  background-color: transparent;
+  padding: 0 18px 0;
 }
-.titulo p.text-right a:first-child {
+.titulo .breadcrumb a {
   color: #fff;
 }
-.titulo p.text-right a:hover {
+.titulo .breadcrumb a:hover {
   color: #34495e;
 }
+.titulo .breadcrumb .active {
+  color: rgba(255,255,255,.7);
+}
+
 
 /*********Slider*********/
 .carousel-inner [class*="imagen-"] {
