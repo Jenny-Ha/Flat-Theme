@@ -374,6 +374,27 @@ header .navbar-brand {
   text-align: center;
 }
 /********** BLOG **********/
+
+.blog .col-md-8>div {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 18px;
+}
+
+@media (min-width: 992px) {
+  .blog .col-md-4 {
+    float: right !important;
+  }
+  .blog .col-md-4 .input-group {
+    margin-bottom: 18px;  
+  } 
+  
+  .blog .col-md-8>div>img {
+    margin: 0 auto;
+  }
+}
+
 .br2{
   border-radius: 10%;
   margin: 20px 0 10px 0;
@@ -410,6 +431,8 @@ header .navbar-brand {
 
 /********** ABOUT **********/
 .redes{
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
 }
