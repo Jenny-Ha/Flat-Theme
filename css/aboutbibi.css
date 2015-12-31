@@ -1,14 +1,29 @@
 
+.redes{
+	width: fit-content;
+	margin: 0 auto;
+}
 .redes i{
-	font-size: 20px;
+	font-size: 15px;
+	width: 42px;
+	height: 42px;
 	border-radius: 50%;
-	padding: 10px 15px;
+	padding: 15px;
+	display: block;
+	float: left;
+	margin-right: 2.5px;
+	margin-left: 2.5px;
+}
+.girl{
+	border-radius: 50%;
+	border: 2px solid white;
+	margin: 0 auto;
 }
 .bg-rojo{
-	background: red;
+	background: #db402c;
 }
 .bg-azul{
-	background: blue;
+	background: #507ed4;
 }
 .bg-celeste{
 background:#5bc0de;
