@@ -44,7 +44,18 @@ a:hover, a:focus {
 .inline{
   display: inline;
 }
-
+.pd80-40{
+  padding: 80px 40px;
+}
+.pd40{
+  padding: 40px;
+}
+.pd20{
+  padding: 20px;
+}
+.text-white{
+  color:  white;
+}
 
 /*Header*/
 header .navbar {
@@ -151,6 +162,39 @@ header .navbar-brand {
   color: #fff;
  /* text-shadow: 1px 1px 1px #333;*/
   
+}
+/********** ABOUT **********/
+.redes{
+  width: fit-content;
+  margin: 0 auto;
+}
+.redes i{
+  font-size: 15px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  padding: 15px;
+  display: block;
+  float: left;
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+}
+.girl{
+  border-radius: 50%;
+  border: 2px solid white;
+  margin: 0 auto;
+}
+.bg-rojo{
+  background: #db402c;
+}
+.bg-azul{
+  background: #507ed4;
+}
+.bg-celeste{
+background:#5bc0de;
+}
+.bg-turquesa{
+background:#428bca;
 }
 /********** FOOTER **********/
 footer  p {
