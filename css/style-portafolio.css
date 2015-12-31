@@ -1,26 +1,63 @@
-section.gallery {
-  padding-top: 25px;
-  padding-bottom: 30px;
+.pagina-portafolio {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-
-section.gallery .row {
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
-section.gallery .thumbnail {
+.pagina-portafolio .thumbnail {
   padding: 8px;
-  cursor: pointer;
+  position: relative;
+  margin: 12px auto;
 }
-section.gallery .col-xs-4 {
+.pagina-portafolio .col-xs-4 {
   padding-left: 12px;
   padding-right: 12px;
 }
-section.gallery .col-xs-4:first-child {
+
+.pagina-portafolio .col-xs-4:first-child {
   padding-left: 15px;
   padding-right: 9px;
 }
-section.gallery .col-xs-4:last-child {
+.pagina-portafolio .col-xs-4:last-child {
   padding-left: 9px;
   padding-right: 15px;
+}
+
+/*Para Ventana Modal de Gallery*/
+.pagina-portafolio .thumbnail .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, .9);
+  -webkit-transition: all .35s linear;
+  transition: all .35s linear;
+  
+}
+.pagina-portafolio .thumbnail .overlay:hover {
+  opacity: 1;
+}
+.pagina-portafolio .thumbnail .preview {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+.pagina-portafolio .thumbnail .preview i {
+  display: inline-block;
+  font-size: 30px;
+  color: #bc1339;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+.pagina-portafolio .modal-body img {
+  width: 100%;
 }
