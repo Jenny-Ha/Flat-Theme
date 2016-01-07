@@ -43,6 +43,9 @@ a:hover, a:focus {
 .inline{
   display: inline;
 }
+.zin{
+  z-index: 2;
+}
 .pd80-40{
   padding: 80px 40px;
 }
